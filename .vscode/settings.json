@@ -1,0 +1,7 @@
+{
+	"files.exclude": {
+		"/home/hstr/Documents/Unreal Projects/buildescapetut/.vscode": true,
+		"/home/hstr/Documents/Unreal Projects/buildescapetut/Content": true,
+		"/home/hstr/Documents/Unreal Projects/buildescapetut/Intermediate": true
+	}
+}

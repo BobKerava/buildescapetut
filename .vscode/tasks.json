@@ -1,0 +1,1710 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "buildescapetut Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Mac",
+				"Debug",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Mac",
+				"Debug",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetut Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Mac",
+				"Debug",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Mac",
+				"DebugGame",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Mac",
+				"DebugGame",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetut Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Mac",
+				"DebugGame",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Mac",
+				"Development",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Mac",
+				"Development",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetut Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Mac",
+				"Development",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Mac",
+				"Shipping",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Mac",
+				"Shipping",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetut Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Mac",
+				"Shipping",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Mac",
+				"Test",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Mac",
+				"Test",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetut Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Mac",
+				"Test",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"IOS",
+				"Debug",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"IOS",
+				"Debug",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetut IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"IOS",
+				"Debug",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"IOS",
+				"DebugGame",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"IOS",
+				"DebugGame",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetut IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"IOS",
+				"DebugGame",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"IOS",
+				"Development",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"IOS",
+				"Development",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetut IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"IOS",
+				"Development",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"IOS",
+				"Shipping",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"IOS",
+				"Shipping",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetut IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"IOS",
+				"Shipping",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"IOS",
+				"Test",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"IOS",
+				"Test",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetut IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"IOS",
+				"Test",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"HTML5",
+				"Debug",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"HTML5",
+				"Debug",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetut HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"HTML5",
+				"Debug",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"HTML5",
+				"DebugGame",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"HTML5",
+				"DebugGame",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetut HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"HTML5",
+				"DebugGame",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut HTML5 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"HTML5",
+				"Development",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"HTML5",
+				"Development",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetut HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"HTML5",
+				"Development",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"HTML5",
+				"Shipping",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"HTML5",
+				"Shipping",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetut HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"HTML5",
+				"Shipping",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut HTML5 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"HTML5",
+				"Test",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"HTML5",
+				"Test",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetut HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"HTML5",
+				"Test",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Linux",
+				"Debug",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Linux",
+				"Debug",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetut Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Linux",
+				"Debug",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Linux",
+				"DebugGame",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Linux",
+				"DebugGame",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetut Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Linux",
+				"DebugGame",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Linux",
+				"Development",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Linux",
+				"Development",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetut Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Linux",
+				"Development",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Linux",
+				"Shipping",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Linux",
+				"Shipping",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetut Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Linux",
+				"Shipping",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Linux",
+				"Test",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Linux",
+				"Test",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetut Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"Linux",
+				"Test",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"TVOS",
+				"Debug",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"TVOS",
+				"Debug",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetut TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"TVOS",
+				"Debug",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"TVOS",
+				"DebugGame",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"TVOS",
+				"DebugGame",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetut TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"TVOS",
+				"DebugGame",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"TVOS",
+				"Development",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"TVOS",
+				"Development",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetut TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"TVOS",
+				"Development",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"TVOS",
+				"Shipping",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"TVOS",
+				"Shipping",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetut TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"TVOS",
+				"Shipping",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"TVOS",
+				"Test",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"TVOS",
+				"Test",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetut TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetut TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetut",
+				"TVOS",
+				"Test",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetutEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetutEditor",
+				"Linux",
+				"Debug",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetutEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetutEditor",
+				"Linux",
+				"Debug",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetutEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetutEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetutEditor",
+				"Linux",
+				"Debug",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetutEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetutEditor",
+				"Linux",
+				"DebugGame",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetutEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetutEditor",
+				"Linux",
+				"DebugGame",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetutEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetutEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetutEditor",
+				"Linux",
+				"DebugGame",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetutEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetutEditor",
+				"Linux",
+				"Development",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetutEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetutEditor",
+				"Linux",
+				"Development",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetutEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetutEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetutEditor",
+				"Linux",
+				"Development",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetutEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetutEditor",
+				"Mac",
+				"Debug",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetutEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetutEditor",
+				"Mac",
+				"Debug",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetutEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetutEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetutEditor",
+				"Mac",
+				"Debug",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetutEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetutEditor",
+				"Mac",
+				"DebugGame",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetutEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetutEditor",
+				"Mac",
+				"DebugGame",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetutEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetutEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetutEditor",
+				"Mac",
+				"DebugGame",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetutEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetutEditor",
+				"Mac",
+				"Development",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetutEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetutEditor",
+				"Mac",
+				"Development",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"buildescapetutEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		},
+		{
+			"label": "buildescapetutEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"buildescapetutEditor",
+				"Mac",
+				"Development",
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/hstr/UnrealEngine"
+			}
+		}
+	]
+}

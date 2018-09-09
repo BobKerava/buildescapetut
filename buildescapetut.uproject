@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{0004EE51-0F08-1304-000F-000A597853A6}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "buildescapetut",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

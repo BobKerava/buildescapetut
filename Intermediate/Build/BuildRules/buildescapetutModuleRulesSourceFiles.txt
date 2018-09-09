@@ -1,0 +1,3 @@
+/home/hstr/Documents/Unreal Projects/buildescapetut/Source/buildescapetut/buildescapetut.Build.cs
+/home/hstr/Documents/Unreal Projects/buildescapetut/Source/buildescapetut.Target.cs
+/home/hstr/Documents/Unreal Projects/buildescapetut/Source/buildescapetutEditor.Target.cs

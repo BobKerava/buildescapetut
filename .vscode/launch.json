@@ -1,0 +1,106 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "buildescapetut (Debug)",
+			"request": "launch",
+			"preLaunchTask": "buildescapetut Linux Debug Build",
+			"program": "/home/hstr/Documents/Unreal Projects/buildescapetut/Binaries/Linux/buildescapetut-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/home/hstr/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "buildescapetut (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "buildescapetut Linux DebugGame Build",
+			"program": "/home/hstr/Documents/Unreal Projects/buildescapetut/Binaries/Linux/buildescapetut-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/home/hstr/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "buildescapetut (Development)",
+			"request": "launch",
+			"preLaunchTask": "buildescapetut Linux Development Build",
+			"program": "/home/hstr/Documents/Unreal Projects/buildescapetut/Binaries/Linux/buildescapetut",
+			"args": [
+			],
+			"cwd": "/home/hstr/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "buildescapetut (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "buildescapetut Linux Shipping Build",
+			"program": "/home/hstr/Documents/Unreal Projects/buildescapetut/Binaries/Linux/buildescapetut-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/home/hstr/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "buildescapetut (Test)",
+			"request": "launch",
+			"preLaunchTask": "buildescapetut Linux Test Build",
+			"program": "/home/hstr/Documents/Unreal Projects/buildescapetut/Binaries/Linux/buildescapetut-Linux-Test",
+			"args": [
+			],
+			"cwd": "/home/hstr/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "buildescapetutEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "buildescapetutEditor Linux Debug Build",
+			"program": "/home/hstr/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-debug"
+			],
+			"cwd": "/home/hstr/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "buildescapetutEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "buildescapetutEditor Linux DebugGame Build",
+			"program": "/home/hstr/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject",
+				"-debug"
+			],
+			"cwd": "/home/hstr/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "buildescapetutEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "buildescapetutEditor Linux Development Build",
+			"program": "/home/hstr/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject"
+			],
+			"cwd": "/home/hstr/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/home/hstr/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/home/hstr/Documents/Unreal Projects/buildescapetut/buildescapetut.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/home/hstr/UnrealEngine"
+		}
+	]
+}
